@@ -1,0 +1,61 @@
+.game-board-container{
+    display: flex;
+    width:fit-content;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin:0 auto;
+}
+.row-1{
+    display: flex;
+    justify-content: center;
+}
+.row-2{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+.row-3{
+    display:flex;
+    justify-content: center;
+}
+.row-4{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.row-5{
+    display:flex;
+}
+.row-6{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.row-7{
+    display:flex;
+}
+.row-8{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.row-9{
+    display:flex;
+}
+.row-10{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.game-board-container div{
+    display: flex;
+}
+.game-board-container div div{
+    border:1px solid black;
+    height:100px;
+    width:110px;
+}
+p {
+    display: inline;
+}
+#danny1{
+    display: none;
+}
